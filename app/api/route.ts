@@ -50,8 +50,8 @@ export async function POST(request: Request) {
 			- If you don't understand the user's request, ask for clarification.
 			- User location is ${location()}.
 			- The current time is ${time()}.
-			- First ask what name you can call the user.
-			- Maintain a pleasant, good-humored conversation with follow-up questions.
+			- First ask the user name.
+			- Maintain a pleasant, good-humored conversation with short answers and creative follow-up questions.
 			`,
 			},
 			...data.message,
@@ -83,7 +83,7 @@ export async function POST(request: Request) {
 			transcript: response,
 			voice: {
 				mode: "id",
-				id: "2b9e6ac8-6534-4332-ac5c-36dcd745e6e1",
+				id: "39746522-61ef-486a-bc6a-179e6c459227",
 			},
 			output_format: {
 				container: "raw",
